@@ -8,18 +8,16 @@
   &__image-block {
     position: relative;
     width: 100%;
-    height: auto;
-    //height: 100%;
-    min-height: 16.75rem;
+    height: 16.75rem;
     border-radius: 0.4rem;
     background-color: var(--color-content);
   }
 
   &__image {
+    //display: block;
+    object-fit: cover;
     width: 100%;
-    height: auto;
-    padding: 0;
-    margin:  0;
+    height: 100%;
     border-radius: 0.4rem;
   }
 
