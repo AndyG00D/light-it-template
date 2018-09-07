@@ -1,0 +1,24 @@
+.estimate {
+  box-sizing: border-box;
+  font-family: var(--font-family-title);
+  color: var(--color-sub-main);
+  text-transform: uppercase;
+
+  &__title {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: normal;
+    font-size: 2.0625rem;
+    margin-bottom: 3.75rem;
+  }
+
+  &__buttons {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.15625em;
+  }
+}

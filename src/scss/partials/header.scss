@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 2.4375rem;
+  height: 8.875rem;
+  background-color: var(--color-main);
+
+  &__logo {
+  }
+
+  &__nav{
+    letter-spacing: 0.2rem;
+  }
+}

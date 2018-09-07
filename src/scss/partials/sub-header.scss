@@ -1,0 +1,16 @@
+.sub-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 75rem;
+  box-sizing: border-box;
+  height: 6.5rem;
+  background-color: var(--color-main);
+
+  &__search {
+    position: absolute;
+    left: 0;
+  }
+}

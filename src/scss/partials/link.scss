@@ -1,0 +1,19 @@
+.link{
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  color:(var(--color-main));
+
+  &:active{
+    color:(var(--color-success));
+  }
+
+
+  &_color-sub-main{
+    color:(var(--color-sub-main));
+  }
+
+  &_color-success{
+    color:(var(--color-success));
+  }
+}

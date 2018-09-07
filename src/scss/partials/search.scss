@@ -1,0 +1,37 @@
+.search {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  &__button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    width: 1.5rem;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: none;
+  }
+
+  &__input {
+    margin-left: 0.8125rem;
+    opacity: 0.44;
+    font-family: var(--font-family-main);
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    background: none;
+    outline: none;
+
+    &:focus {
+      border-bottom: 0.0625rem solid var(--color-sub-main);
+    }
+  }
+}
